@@ -1,0 +1,104 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+/* html, body{
+     background: linear-gradient(lightgoldenrodyellow,lightcoral);
+
+} */
+body{
+     padding: 78px 150px;
+     background-color: rgb(255, 255, 158);
+}
+h1{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: rgba(245, 9, 151, 0.673);
+     font-size: 48px;
+}
+#root{
+     width: 100%;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-gap: 20px;
+     margin-top: 50px;
+}
+.box{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-between;
+     border: 2px solid #4bb7e1;
+     border-radius: 5px;
+     padding: 15px;
+}
+.img-box{
+     width: 100%;
+     height: 180px;
+     display: flex;
+      align-items: center;
+      justify-content: center;
+}
+.images{
+     max-height: 90%;
+     /* max-width: 100%; */
+     object-fit: cover;
+     object-position: center;
+}
+.bottom{
+     margin-top: 20px;
+     width: 100%;
+     text-align: center;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     height: 110px;
+     flex-direction: column;
+}
+h2{
+     font-size: 20px;
+     color: red;
+}
+button{
+     width: 100%;
+     position: relative;
+     border: none;
+     border-radius: 5px;
+     background-color: #4bb7e1;
+     padding: 7px 25px;
+     cursor: pointer;
+     color: white;
+}
+button:hover{
+     background-color: #333;
+}
+
+#btns{
+     width: 80px;
+     height: 30px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 20px;
+     position: absolute;
+     left: 47%;
+     margin-top: 20px;
+     
+}
+#btns button{
+     border: 2px solid #4bb7e1;
+     background:none;
+     color: #4bb7e1;
+     display: flex;
+     align-items: center;justify-content: center;
+     margin: 40px 5px;
+     font-size: 18px;
+
+}
+#btns button:hover{
+background-color: #4bb7e1;
+color: white;
+}
+
